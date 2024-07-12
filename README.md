@@ -1,65 +1,83 @@
-<div style="background: black;">
-<p align="center" style="margin: 0;">
-  <a href="https://dev.marblism.com" target="blank">
-    <img src="https://marblism-dashboard-api--production-public.s3.us-west-1.amazonaws.com/marblism-logo.png" height="150" alt="Marblism Logo" />
-  </a>
-</p>
-<h1 align="center" style="margin: 0;">In Marble We Trust</h1>
-
-<a  style="margin: 0;" target="_blank" href="https://marblism.com">
-<p align="center" style="margin: 0; letter-spacing: 3px;
-text-decoration: none;">
-marblism
-</p>
-</a>
-</div>
-<div style="height: 50px; background: linear-gradient(#000000, transparent);"></div>
-
-## Documentation
-
-Learn more in the [official documentation](https://dev.marblism.com).
-
-## Installation
-
-<div style="color: red;">
-
-> ⚠️ **Important**<br/>Make sure the following tools are installed on your computer
-
-<p align="center">
-
-<a target="_blank" href="https://www.docker.com/get-started/">![Docker Desktop Version](https://img.shields.io/badge/Docker%20Desktop-4.19.0-black?logo=docker)</a>
-<a target="_blank" href="https://nodejs.org/en">![Node.js version](https://img.shields.io/badge/Node.js-20.11.0-black?logo=nodedotjs)</a>
-<a target="_blank" href="https://www.npmjs.com/">![npm Version](https://img.shields.io/badge/npm-10.2.4-black?logo=npm)</a>
-
-</p>
+<div align="center">
+  <h1>Empowering Mental Health Through AI</h1>
 </div>
 
-<br />
+## 🧠 About Our Project
+
+Our innovative AI-powered therapy chatbot is designed to provide support for mental health concerns, with a focus on depression and ADHD. Our platform offers a safe, accessible, and user-friendly environment for individuals seeking emotional support and guidance.
+
+## 🚀 Key Features
+
+- AI-driven conversational therapy
+- Real-time sentiment analysis
+- Medical-grade assessment integration (e.g., HAMD for depression)
+- Severity assessment and professional referral system
+- Accessible and user-friendly interface for all age groups
+
+## 📚 Documentation
+
+For detailed information, visit our official documentation (link to be added).
+
+## 🛠️ Tech Stack
+
+- Backend: NestJS
+- Frontend: React (assumed based on project structure)
+- Database: TypeORM
+- Real-time Communication: WebSockets
+- AI Integration: Cloud-based open-source LLM
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+Ensure you have the following tools installed:
+
+[![Docker Desktop](https://img.shields.io/badge/Docker%20Desktop-4.19.0+-black?logo=docker)](https://www.docker.com/get-started/)
+[![Node.js](https://img.shields.io/badge/Node.js-20.11.0+-black?logo=nodedotjs)](https://nodejs.org/en)
+[![npm](https://img.shields.io/badge/npm-10.2.4+-black?logo=npm)](https://www.npmjs.com/)
+
+### Installation
 
 ```bash
-$ pnpm run init
-```
+pnpm run init
 
-## Development
 
-```bash
-$ pnpm run dev
-```
 
-[View your application in your browser](http://localhost:8099)
+Development
+Start the development server:
 
-## Production
+pnpm run dev
 
-```bash
-$ pnpm run build
-$ pnpm run start
-```
 
-## Support
 
-We reply FAST on our <a target="_blank" href="https://discord.gg/GScNz7kAEu">Discord server</a>.
+View your application at http://localhost:8099
 
-## Stay in touch
+Production
+Build and start the production server:
 
-[@marblismAI](https://twitter.com/marblismAI)
-# KONARQ_MATRI
+pnpm run build
+pnpm run start
+
+
+
+🧪 Testing
+Run the test suite:
+
+pnpm run test
+
+
+
+🔒 Security
+We prioritize the security and privacy of our users' sensitive mental health data. Our system employs encryption and follows best practices for data protection.
+
+🤝 Support
+Join our community support channel (link to be added).
+
+📝 Changelog
+We maintain a detailed changelog to keep you informed about the latest updates and improvements. Check out our CHANGELOG.md for more information.
+
+🛠 Contributing
+We welcome contributions! Please read our contributing guidelines (link to CONTRIBUTING.md) before submitting pull requests.
+
+📄 License
+This project is licensed under the MIT License.
